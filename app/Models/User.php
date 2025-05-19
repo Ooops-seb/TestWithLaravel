@@ -60,6 +60,6 @@ class User extends Authenticatable
 
     public function clientes()
     {
-        return $this->hasMany(Clientes::class);
+        return $this->hasMany(Cliente::class);
     }
 }
